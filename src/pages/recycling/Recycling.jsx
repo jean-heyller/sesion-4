@@ -14,7 +14,7 @@ const RecyCling = () => {
       <div className="container">
 
         <Canvas>
-          <OrbitControls autoRotate  autoRotateSpeed={10}/>
+          <OrbitControls autoRotate={false}  autoRotateSpeed={10}/>
           <ambientLight intensity={0.5} />
           <directionalLight position={[10, 10, 10]} intensity={5} />
           <TrashCan />
